@@ -1,0 +1,202 @@
+
+// +MQ(S)
+.about-lock
+  // margin: auto
+  max-width: 800px
+  +display(flex)
+  margin: 0 auto
+  +align-items(center)
+  +justify-content(space-between)
+
+  .face-img
+    border-radius: 50%
+    background-size: cover
+    background-position: center
+    // background-image: url(../img/#{$avatar-path})
+    +size(185px)
+    +order(3)
+    // +size(180px)
+    // +display(flex)
+    // margin: auto
+    // border-radius: 60%
+    background: url(../img/me_converted_180.png) no-repeat
+
+  [class^="icon-"]
+    +size(90px)
+    background: #FFF
+    border-radius: 50%
+
+    // path
+    //   fill: $accent
+
+    &.icon-web-programming
+      +order(1)
+    &.icon-terminal_2
+      +order(2)
+    &.icon-robot
+      +order(4)
+    &.icon-brain_new
+      +order(5)
+
+  // .face1-img
+  //   +size(180px)
+  //   border-radius: 50%
+  //   background: url(../img/ml_andrew_ng_200.png)
+  //   margin: auto
+  // .flip-container
+  //   perspective: 1000
+  //   &:hover .flipper, &.hover .flipper
+  //     transform: rotateY(180deg)
+  //   +size(200px)
+  //   border-radius: 50%
+  //   +order(3)
+  // .front, .back
+  //   +size(200px)
+  //   border-radius: 50%
+
+  // .flipper
+  //   transition: 0.6s
+  //   transform-style: preserve-3d
+  //   position: relative
+
+  // .front, .back
+  //   backface-visibility: hidden
+  //   position: absolute
+  //   top: 0
+  //   left: 0
+
+  // .front
+  //   z-index: 2
+  //   transform: rotateY(0deg)
+
+  // .back
+  //   transform: rotateY(180deg)
+
+  // .flaticon-cogwheel28
+  //   display: none
+  // .flaticon-computer1
+  //   display: none
+  // .flaticon-hosting
+  //   display: none
+  // .flaticon-computers13
+  //   display: none
+  // .flaticon-cogwheel28
+  //   +order(1)
+  //   display: block
+  // .flaticon-computer1
+  //   +order(2)
+  //   display: block
+  // .flaticon-hosting
+  //   +order(4)
+  //   display: block
+  // .flaticon-computers13
+  //   +order(5)
+  //   display: block
+
+  // // .glyph-icon
+  // //   &:hover
+  // //     +transform(scale(1.2))
+
+  // .glyph-icon:before
+  //   display: block
+  //   font-size: 60px
+  //   line-height: 70px
+  //   color: $color-1
+  //   +transition()
+  //   margin-left: 0
+
+.blurb
+  max-width: 750px
+  padding: 0 15px
+  margin: 50px auto
+  font-size: 22px
+  font-weight: 30
+  text-align: center
+
+
+@media screen and (max-width: 650px)
+  .about-lock
+    display: block
+    text-align: center
+
+    div
+      display: inline-block
+
+    .face-img
+      display: block
+      background:
+        position: center center
+        repeat: no-repeat
+      margin: 0 auto 30px
+
+    [class^="icon-"]
+      margin: 10px 9%
+// @media screen and (max-width: 650px)
+//   .about-lock
+//     display: block
+//     text-align: center
+
+//     div
+//       display: inline-block
+
+//     .face-img
+//       display: block
+//       background:
+//         position: center center
+//         repeat: no-repeat
+//       margin: 0 auto 30px
+
+//       [class^="icon-"]
+//           margin: 10px 9%
+
+    // [class^="flaticon-"]
+    // .glyph-icon:before
+    //   display: block
+    //   font-size: 40px
+    //   line-height: 50px
+    //   color: $color-1
+    //   +transition()
+    //   margin-left: 0
+      // +size(100px)
+      // margin: 10px 9%
+
+
+// +MQ(M)
+//   .about-lock
+//     max-width: 680px
+//     +display(flex)
+//     margin: 0 auto
+//     +align-items(center)
+//     +justify-content(space-between)
+
+//     .flaticon-cogwheel28
+//       +order(1)
+//       display: block
+//     .flaticon-computer1
+//       +order(2)
+//       display: block
+//     .flaticon-hosting
+//       +order(4)
+//       display: block
+//     .flaticon-computers13
+//       +order(5)
+//       display: block
+
+//     .glyph-icon
+//       &:hover
+//         +transform(scale(1.2))
+
+//     .glyph-icon:before
+//       display: block
+//       font-size: 60px
+//       line-height: 70px
+//       color: $color-1
+//       +transition()
+//       margin-left: 0
+
+// +MQ(L)
+//   .about-lock
+//     max-width: 980px
+
+
+

@@ -1,0 +1,58 @@
+#h_small
+  @extend %background-image
+  background:
+    position: 30px 20px, 50% 50%
+    image: url(../img/nn_50.svg), url(../img/MLseries.png)
+  padding-bottom: 50px
+  height: 170px
+  // background: url(../img/MLseries.png) center center
+  // background-size: cover
+
+
+
+  #nav_small
+    float: right
+    margin: 30px 30px 30px
+
+    a
+      display: inline-block
+      margin-left: 10px
+      color: rgba(255, 255, 255, 1)
+      @extend %small-bold
+
+      &:hover
+        color: rgb(186, 196, 203)
+
+  #h1_small
+    display: inline-block
+    font:
+      size: 72px
+      weight: 700
+    color: rgba(255, 255, 255, 1)
+    text-transform: uppercase
+    letter-spacing: 0.05cm
+    span
+      display: inline-block
+      padding: 0.2em 0.5em
+      border: rgb(186, 196, 203) solid 10px
+
+
+
+  .kicker
+    text-align: center
+    @extend %small-bold
+    line-height: 1
+    color: rgb(186, 196, 203)
+
+@media (max-width: 640px)
+  #h_small
+    background:
+      position: 50% 20px, 50% 50%
+
+    .logo
+      width: 640px
+
+    nav
+      float: none
+      text-align: center
+      padding-top: 90px

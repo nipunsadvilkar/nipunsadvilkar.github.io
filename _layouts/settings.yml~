@@ -1,0 +1,14 @@
+#-------------------------------
+# General Site Settings
+
+title: NIPUN SADVILKAR
+description: Self Taught Programmer || Lifelong Learner || AI &amp; Machine Learning Enthusiast
+email: nipunsadvilkar@gmail.com
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: About Me, url: '#about-me'}
+- {name: Experience, url: '#work'}
+- {name: Blog, url: '#posts'}
+- {name: Contact, url: '#Details'}
