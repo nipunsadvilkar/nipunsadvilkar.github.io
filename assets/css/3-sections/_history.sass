@@ -68,13 +68,13 @@
   box-shadow: 0 0 0 4px $color-3, inset 0 2px 0 rgba(black, 0.08), 0 3px 0 4px rgba(black, 0.05)
   img
     display: block
-    width: 24px
-    height: 24px
+    width: 32px
+    height: 32px
     position: relative
     left: 50%
     top: 50%
-    margin-left: -12px
-    margin-top: -12px
+    margin-left: -16px
+    margin-top: -16px
 
   &.cd-picture
     background: $color-1
@@ -118,6 +118,15 @@
     padding-top: 0px
     padding-bottom: 0px
     color: $color-1
+  h3
+    padding-top: 0px
+    padding-bottom: 0px
+    margin-bottom: 5px
+    margin-top: 5px
+    color: #63a5de
+    // font-weight: 700;
+    text-transform: uppercase
+    text-align: center
   p, .cd-read-more, .cd-date
     +font-size(13px)
   .cd-read-more, .cd-date
@@ -149,6 +158,8 @@
   +MQ(M)
     h2
       +font-size(20px)
+    h3
+      +font-size(19px)
     p
       +font-size(16px)
     .cd-read-more, .cd-date

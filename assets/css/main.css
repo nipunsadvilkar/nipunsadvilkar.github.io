@@ -527,6 +527,43 @@ th {
 .flaticon-youtube31:before {
   content: "\e012"; }
 
+.share-button {
+  margin: 0px;
+  padding: 10px 20px 10px 20px;
+  opacity: 0.9; }
+
+.share-button:hover {
+  opacity: 1; }
+
+.share-this {
+  text-align: center;
+  padding-top: 50px; }
+
+#share-box {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px; }
+
+.fa-facebook-official {
+  color: #3b5998;
+  font-size: 40px; }
+
+.fa-google-plus {
+  color: #d34836; }
+
+/* used share-linkedin here as fa-linkedin class is also used for sidebar. If fa-linkedin is used here, it colors even the sidebar */
+.share-linkedin {
+  color: #0077b5; }
+
+.fa-envelop {
+  color: #444444; }
+
+.fa-reddit {
+  color: #ff5700; }
+
+.fa-twitter {
+  color: #4099FF; }
+
 .highlight .hll {
   background-color: #ffffcc; }
 
@@ -876,7 +913,16 @@ h2 {
   h2 {
     padding: 50px 0 50px; } }
 
-h2, header nav a, header .kicker, footer .lockup a, #h_small #nav_small a, #h_small .kicker {
+h3 {
+  color: #63a5de;
+  text-align: center;
+  padding: 50px 0 30px; }
+
+@media sceen and (max-width: 480px) {
+  h3 {
+    padding: 50px 0 50px; } }
+
+h2, h3, header nav a, header .kicker, footer .lockup a, #h_small #nav_small a, #h_small .kicker {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase; }
@@ -1168,13 +1214,13 @@ footer {
   box-shadow: 0 0 0 4px #ffffff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05); }
   .cd-timeline-img img {
     display: block;
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
     position: relative;
     left: 50%;
     top: 50%;
-    margin-left: -12px;
-    margin-top: -12px; }
+    margin-left: -16px;
+    margin-top: -16px; }
   .cd-timeline-img.cd-picture {
     background: #303e49; }
   .cd-timeline-img.cd-movie {
@@ -1234,6 +1280,14 @@ footer {
     padding-top: 0px;
     padding-bottom: 0px;
     color: #303e49; }
+  .cd-timeline-content h3 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: #63a5de;
+    text-transform: uppercase;
+    text-align: center; }
   .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
     font-size: 13px;
     font-size: 0.8125rem; }
@@ -1267,6 +1321,9 @@ footer {
     .cd-timeline-content h2 {
       font-size: 20px;
       font-size: 1.25rem; }
+    .cd-timeline-content h3 {
+      font-size: 19px;
+      font-size: 1.1875rem; }
     .cd-timeline-content p {
       font-size: 16px;
       font-size: 1rem; }
