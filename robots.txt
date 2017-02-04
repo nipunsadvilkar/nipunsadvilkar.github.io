@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: your-site-url/sitemap.xml
