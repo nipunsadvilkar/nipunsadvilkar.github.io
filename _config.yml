@@ -1,5 +1,5 @@
 name: Nipun Sadvilkar
-markdown: redcarpet
+markdown: kramdown
 highlighter: rouge
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 future: true
