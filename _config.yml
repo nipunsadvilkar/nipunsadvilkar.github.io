@@ -2,6 +2,7 @@ name: Nipun Sadvilkar
 markdown: kramdown
 highlighter: rouge
 exclude: ["node_modules", "gulpfile.js", "package.json"]
+comments: true
 future: true
 gems:
   - jekyll-seo-tag
