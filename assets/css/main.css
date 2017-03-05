@@ -886,15 +886,6 @@ a {
 a:hover, a:focus {
   color: #587287; }
 
-::-moz-selection {
-  color: #587287; }
-
-::selection {
-  color: #587287; }
-
-::-moz-selection {
-  color: #587287; }
-
 body {
   background: white;
   font-size: 14px;
@@ -927,7 +918,7 @@ h2, h3, header nav a, header .kicker, footer .lockup a, #h_small #nav_small a, #
   font-weight: 700;
   text-transform: uppercase; }
 
-header, #h_small {
+header, header .logo, #h_small {
   background-repeat: no-repeat, no-repeat;
   background-size: 50px 50px, cover;
   background-position: 30px 50px, 50% 50%; }
@@ -935,9 +926,9 @@ header, #h_small {
 header {
   background-position: 30px 20px, 50% 50%;
   background-image: url(../img/nn_50.svg), url(../img/MLseries.png);
-  padding-bottom: 50px; }
+  padding-bottom: 60px; }
   header .logo {
-    @extenc %background-image {}    color: #c9c9c9c9; }
+    color: #c9c9c9c9; }
   header nav {
     float: right;
     margin: 30px 30px 30px; }
@@ -1072,6 +1063,14 @@ footer {
   font-size: 22px;
   font-weight: 30;
   text-align: center; }
+
+.blurb-text {
+  max-width: 750px;
+  padding: 0 15px;
+  margin: 10px auto;
+  font-size: 22px;
+  font-weight: 30;
+  text-align: justify; }
 
 @media screen and (max-width: 650px) {
   .about-lock {
@@ -1284,10 +1283,15 @@ footer {
     padding-top: 0px;
     padding-bottom: 0px;
     margin-bottom: 5px;
-    margin-top: 5px;
+    margin-top: 8px;
     color: #63a5de;
     text-transform: uppercase;
     text-align: center; }
+  .cd-timeline-content a {
+    color: #63a5de;
+    cursor: pointer; }
+    .cd-timeline-content a:hover {
+      color: #3db6a5; }
   .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
     font-size: 13px;
     font-size: 0.8125rem; }
@@ -1295,7 +1299,8 @@ footer {
     display: inline-block; }
   .cd-timeline-content p {
     margin: 1em 0;
-    line-height: 1.6; }
+    line-height: 1.6;
+    text-align: justify; }
   .cd-timeline-content .cd-read-more {
     float: right;
     padding: .8em 1em;
@@ -1527,6 +1532,7 @@ form {
   .title:hover {
     padding-left: 10px; }
   .post-title {
+    min-width: 300px;
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
@@ -1562,6 +1568,9 @@ form {
     font-weight: 30;
     padding-left: 10px;
     padding-right: 10px; }
+    .blurb-blog img {
+      display: block;
+      max-width: 100%; }
   .honeycombpic {
     width: 270px;
     height: 190px;
