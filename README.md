@@ -1,4 +1,5 @@
-# Nipun Sadvilkar Blog
+# Nipun Sadvilkar's Blog
+---
 
 ![The Design](assets/img/nipun_blog.png)
 
@@ -24,4 +25,4 @@ In order to get this super fantastic [Jekyll](http://jekyllrb.com) powered templ
 
 A big thank you to [Travis Neilson's](https://github.com/travisneilson) and [Devtips](https://www.youtube.com/user/DevTipsForDesigners) channel. Keep Rocking!🤘🏻
 
----
+Feel free to use this design!
