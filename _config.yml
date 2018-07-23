@@ -4,5 +4,6 @@ highlighter: rouge
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 comments: true
 future: true
-gems:
-  - jekyll-seo-tag
+plugins:
+    - jekyll-seo-tag
+
