@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Neural Networks And Deep Learning Book Chapter 1 Exercise 1 Solution"
-date:   2017-09-04 13:00:00
+date:   2017-09-04 21:00:00
 comments: true
 categories: blog
+description: Solutions of "Neural Networks and Deep Learning by Michael Nielsen" Exercises
 ---
 
 
