@@ -8,7 +8,7 @@ description: Solutions of "Neural Networks and Deep Learning by Michael Nielsen"
 ---
 
 
-I must say [Neural Networks and Deep Learning by Michael Nielsen](http://neuralnetworksanddeeplearning.com/) is best deep learning book I have came across. It has perfect combination of theory plus code. It delves into deep mathematics as much as code. Methodology of "from-scratch" implementation of neural networks and exercises in between really encourages you to think carefully about what's actually happening underhood of neural networks.
+I must say [Neural Networks and Deep Learning by Michael Nielsen](http://neuralnetworksanddeeplearning.com/) is best deep learning book I have came across. It has perfect combination of theory plus code. It delves into deep mathematics as much as code. Methodology of "from-scratch" implementation of neural networks and exercises in between really encourages you to think carefully about what's actually happening under the hood of neural networks.
 
 Following is my attempt to those exercises:
 
