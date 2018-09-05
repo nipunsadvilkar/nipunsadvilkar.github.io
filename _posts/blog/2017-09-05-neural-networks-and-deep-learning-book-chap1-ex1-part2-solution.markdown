@@ -7,7 +7,7 @@ categories: blog
 description: Solutions of "Neural Networks and Deep Learning by Michael Nielsen" Exercises Chapter 1 Part II
 ---
 
-I have been solving exercises of [Neural Networks and Deep Learning Book by Michael Nielsen](http://neuralnetworksanddeeplearning.com/). If you are following along here is link to Chapter 1 Exercise 1.1 Solution about [Sigmoid neurons simulating perceptrons, part I](https://nipunsadvilkar.github.io/blog/2017/09/04/neural-networks-and-deep-learning-book-chap1-ex1-part1-solution.html)
+I have been solving exercises of [Neural Networks and Deep Learning Book by Michael Nielsen](http://neuralnetworksanddeeplearning.com/). If you are following along my solutions, that's great. Thank you so much! If not, here is link to Chapter 1 Exercise 1.1 Solution about [Sigmoid neurons simulating perceptrons, part I](https://nipunsadvilkar.github.io/blog/2017/09/04/neural-networks-and-deep-learning-book-chap1-ex1-part1-solution.html)
 
 Following is my attempt to second exercise:
 
