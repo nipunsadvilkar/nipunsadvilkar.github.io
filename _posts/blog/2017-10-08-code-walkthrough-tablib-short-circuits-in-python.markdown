@@ -66,8 +66,6 @@ evaluates to `False` and as per 1st operation from the table, evaluate second ar
 
 If you are more of a visual learning person, following demonstartion using [Python tutor tool](http://pythontutor.com/) built by an outstanding academic and prolific blogger - [Philip Guo](http://pgbovine.net) - would help:
 
-{% raw %}
 <iframe width="800" height="800" frameborder="0" src="http://pythontutor.com/iframe-embed.html#code=_data%20%3D%20%5B%5B1,2,3%5D,%20%5B4,5,6%5D,%20%5B1,2,3%5D%5D%0Aseen%20%3D%20set%28%29%0Adata_deduplicated%20%3D%20%5Brow%20for%20row%20in%20_data%20if%20not%20%28tuple%28row%29%20in%20seen%20or%20seen.add%28tuple%28row%29%29%29%5D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=6&heapPrimitives=nevernest&origin=opt-frontend.js&py=2&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
-{% endraw %}
 
 I hope by now you have understood [_short circuit technique_](https://www.geeksforgeeks.org/short-circuiting-techniques-python/) and importance of reading open source code. So keep exploring and do share your experience with me. Thank you! :)
