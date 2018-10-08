@@ -65,8 +65,9 @@ tuple(row) in seen
 ```
 evaluates to `False` and as per 1st operation from the table, evaluate second argument which is to add given row in `seen` _set_. Furthermore, `if not ()` condition gets satisfied and given row is added to outer list. Subsequently, if the same row occurs then we know it's already in `seen` _set_ and hence that row will not be added to outer list. In overall, resulting into removing of duplicate rows.
 
-If you are more of a visual learning person, following demonstartion using [Python tutor tool](http://pythontutor.com/) built by an outstanding academic and prolific blogger - [Philip Guo](http://pgbovine.net) - would help:
-<iframe width="800" height="800" frameborder="0" src="http://pythontutor.com/iframe-embed.html#code=_data%20%3D%20%5B%5B1,2,3%5D,%20%5B4,5,6%5D,%20%5B1,2,3%5D%5D%0Aseen%20%3D%20set%28%29%0Adata_deduplicated%20%3D%20%5Brow%20for%20row%20in%20_data%20if%20not%20%28tuple%28row%29%20in%20seen%20or%20seen.add%28tuple%28row%29%29%29%5D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=6&heapPrimitives=nevernest&origin=opt-frontend.js&py=2&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+If you are more of a visual learning person, following demonstartion using [Python tutor tool](http://pythontutor.com/) built by an outstanding academic and prolific blogger - [Philip Guo](http://pgbovine.net) - would help*:
+> *If below IFrame is not visible then please enable **"load unsecure script"** of your browser. Don't worry! it's saying unsecure because of http protocol used by [Python tutor](http://pythontutor.com/) and not **https**.
 
+<iframe width="820" height="650" frameborder="1.5" src="http://pythontutor.com/iframe-embed.html#code=_data%20%3D%20%5B%5B1,2,3%5D,%20%5B4,5,6%5D,%20%5B1,2,3%5D%5D%0Aseen%20%3D%20set%28%29%0Adata_deduplicated%20%3D%20%5Brow%20for%20row%20in%20_data%20if%20not%20%28tuple%28row%29%20in%20seen%20or%20seen.add%28tuple%28row%29%29%29%5D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=6&heapPrimitives=nevernest&origin=opt-frontend.js&py=2&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
 I hope by now you have understood [_short circuit technique_](https://www.geeksforgeeks.org/short-circuiting-techniques-python/) and importance of reading open source code. So keep exploring and do share your experience with me. Thank you! :)
