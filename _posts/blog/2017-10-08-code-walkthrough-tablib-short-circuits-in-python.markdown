@@ -4,6 +4,7 @@ title:  "Code Walkthrough: Tablib, a Python Module for Tabular Datasets"
 date:   2017-10-08 21:00:00
 comments: true
 categories: blog
+image: /assets/img/source_code.png
 description: Reading Great Code and it's benefits. Code walkthrough of tablib python module by Nipun Sadvilkar
 ---
 <hr>
