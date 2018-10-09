@@ -11,7 +11,7 @@ description: Reading Great Code and it's benefits. Code walkthrough of tablib py
 
 <h1 style="font-size: 30px;">Motivation</h1>
 
-Oftentimes, I like to dive into open source projects to learn best practices and know how programming pundits use to do things correctly and optimally. In addition, [Peter Norvig](https://en.wikipedia.org/wiki/Peter_Norvig) has also said in his famous blog post [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)
+Oftentimes, I like to dive into open source projects to learn best practices and design patterns programming pundits use to do things correctly and optimally. In addition, [Peter Norvig](https://en.wikipedia.org/wiki/Peter_Norvig) has also said in his famous blog post [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)
 
 > *Talk with other programmers; read other programs. This is more important than any book or training course.*
 
