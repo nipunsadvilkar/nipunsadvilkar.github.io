@@ -43,7 +43,7 @@ Check the `if ` statement followed by [_generator expression_](https://dbader.or
 |`not x`|if x is false, then True, else False|`not` has a lower priority than non-Boolean operators|
 
 <br>
-`remove_duplicates` method uses 1st and 3rd Operation from above table.
+[`remove_duplicates`](https://www.scaler.com/topics/remove-duplicates-from-list-python/) method uses 1st and 3rd Operation from above table.
 
 Key thing to remember is:
 
